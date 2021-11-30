@@ -1,0 +1,17 @@
+ version: 1.0
+
+ phases:
+    build:
+       commands:
+          - echo entered into build phase...
+          - mvn clean package
+    post_build:
+       commands:
+          - echo entered into build phase...
+ artifacts:
+    files:
+       -target/CodeBuildApp.jar
+    discard-paths: yes
+
+          
+       
