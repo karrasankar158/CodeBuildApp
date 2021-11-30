@@ -10,7 +10,7 @@
           - echo entered into build phase...
  artifacts:
     files:
-       -target/CodeBuildApp.jar
+       - target/CodeBuildApp.jar
     discard-paths: yes
 
           
